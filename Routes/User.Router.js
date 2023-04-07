@@ -249,7 +249,7 @@ userRouter.patch("/update", async (req, res) => {
 
     let { OTP } = req.body
 
-    console.log(otp.OneTimePassword)
+    console.log(otp.OneTimePassword,verifyEmail)
 
     if (Number(OTP) == otp.OneTimePassword && verifyEmail !== undefined && verifypassword !== undefined) {
         try {
