@@ -264,7 +264,7 @@ userRouter.patch("/update", async (req, res) => {
                     to: verifyEmail,
                     subject: "Your Password Has Been Updated Successfully",
                     html: `<body>
-                <div style="font-family: Arial, sans-serif; font-size: 14px; color: #000000;">
+                <div style="font-family: Arial, sans-serif; font-size: 17px; color: #000000;">
                   <p>Dear, ${verifyname}</p>
                   <p>I am writing to inform you that your password has been updated successfully. As part of our ongoing commitment to security, we encourage our clients to change their passwords regularly, and we are pleased to let you know that this update has been completed successfully.</p>
                   <p>Your new password is: <strong style="color:red;">${verifypassword}</strong>. Please ensure that you keep this password safe and secure. If you have any difficulties or concerns regarding your new password, please do not hesitate to get in touch with us and we will be happy to assist you.</p>
