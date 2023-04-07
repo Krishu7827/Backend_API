@@ -261,7 +261,7 @@ userRouter.patch("/update", async (req, res) => {
                 let mailOptions = {
 
                     from: "bluearpon4567@gmail.com",
-                    to: "krishukumar535@gmail.com",
+                    to: verifyEmail,
                     subject: "Your Password Has Been Updated Successfully",
                     html: `<body>
                 <div style="font-family: Arial, sans-serif; font-size: 17px; color: #000000;">
